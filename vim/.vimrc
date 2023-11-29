@@ -8,7 +8,7 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 "hi CursorLine ctermbg=60 ctermfg=424450
-"syntax on
+syntax on
 inoremap jk <Esc>
 packloadall
 set backspace=indent,eol,start
@@ -27,11 +27,11 @@ autocmd VimEnter * silent !echo -ne "\e[2 q"
 augroup END
 
 "For enabling night-owl theme
-set termguicolors
-syntax enable
-colorscheme night-owl
-" To enable the lightline theme
-let g:lightline = { 'colorscheme': 'nightowl' }
+"set termguicolors
+"syntax enable
+"colorscheme night-owl
+"" To enable the lightline theme
+"let g:lightline = { 'colorscheme': 'nightowl' }
 
 "For vim-go to work properly
 "filetype plugin indent on
